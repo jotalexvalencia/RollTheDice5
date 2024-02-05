@@ -77,3 +77,10 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+install https://www.npmjs.com/package/react-native-haptic-feedback 
+
+In my case I did not do what is in the image, I just installed the package and imported it into App.tsx.
+
+![image](https://github.com/jotalexvalencia/RollTheDice5/assets/10563766/ec1bc625-a965-412c-a913-4189db0dff48)
+
