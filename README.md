@@ -99,3 +99,20 @@ const options = {
 // Trigger haptic feedback
 ReactNativeHapticFeedback.trigger("impactLight", options);
 
+Configurations in Smartphone Android:
+
+1. Enable vibration
+
+![image](https://github.com/jotalexvalencia/RollTheDice5/assets/10563766/62a51811-8c8b-4ef7-b4bb-44b624a7abc4)
+
+2. Enable haptic feedback
+
+![image](https://github.com/jotalexvalencia/RollTheDice5/assets/10563766/f929fb84-f930-4978-8058-442a015c3806)
+
+3. Disable battery saver
+
+![image](https://github.com/jotalexvalencia/RollTheDice5/assets/10563766/8a1763ce-d39e-41d3-8c5a-0a7a4b43f6dc)
+
+
+
+
