@@ -80,7 +80,22 @@ To learn more about React Native, take a look at the following resources:
 
 install https://www.npmjs.com/package/react-native-haptic-feedback 
 
+![image](https://github.com/jotalexvalencia/RollTheDice5/assets/10563766/ec1bc625-a965-412c-a913-4189db0dff48)
+
 In my case I did not do what is in the image, I just installed the package and imported it into App.tsx.
 
-![image](https://github.com/jotalexvalencia/RollTheDice5/assets/10563766/ec1bc625-a965-412c-a913-4189db0dff48)
+my steps were:
+1. Install the package
+npm i react-native-haptic-feedback
+2. Import into App.tsx file
+import ReactNativeHapticFeedback from "react-native-haptic-feedback";
+3. Use it inside the App.tsx file
+// Optional configuration
+const options = {
+   enableVibrateFallback: true,
+   ignoreAndroidSystemSettings: false,
+};
+
+// Trigger haptic feedback
+ReactNativeHapticFeedback.trigger("impactLight", options);
 
